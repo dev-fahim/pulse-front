@@ -1,5 +1,5 @@
 {
-    "api": "http://localhost:8000/api/v1/",
+    "api": "https://pms.tdg.server.jmdigitalmarketingservices.com/api/v1/",
     "eventsUrl": null,
     "baseHref": "/",
     "eventsMaxMissedHeartbeats": 5,
@@ -13,7 +13,7 @@
     ],
     "defaultTheme": "taiga",
     "defaultLoginEnabled": true,
-    "publicRegisterEnabled": true,
+    "publicRegisterEnabled": false,
     "feedbackEnabled": true,
     "supportUrl": "https://community.taiga.io/",
     "privacyPolicyUrl": null,

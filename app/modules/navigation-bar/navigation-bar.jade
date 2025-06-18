@@ -12,7 +12,7 @@ nav.navbar(ng-if="vm.isEnabledHeader")
             href="https://taiga.io/",
             title="{{'PROJECT.NAVIGATION.HOMEPAGE' | translate}}"
         )
-            include ../../svg/logo.svg
+            include ../../svg/pulse-logo.svg
 
         a.logo(
             ng-if="vm.isAuthenticated"
@@ -20,7 +20,7 @@ nav.navbar(ng-if="vm.isEnabledHeader")
             tg-nav="home",
             title="{{'PROJECT.NAVIGATION.HOMEPAGE' | translate}}"
         )
-            include ../../svg/logo.svg
+            include ../../svg/pulse-logo.svg
 
         .topnav-dropdown-wrapper(
             ng-if="vm.isAuthenticated"
@@ -44,50 +44,50 @@ nav.navbar(ng-if="vm.isEnabledHeader")
         )
 
     .nav-right(ng-if="vm.isAuthenticated")
-        a(
-            tg-nav="discover",
-            ng-class="{'active': vm.active == 'discover' }"
-            title="{{'PROJECT.NAVIGATION.DISCOVER_TITLE' | translate}}"
-        )
-            tg-svg(svg-icon="icon-compass")
+        //a(
+        //    tg-nav="discover",
+        //    ng-class="{'active': vm.active == 'discover' }"
+        //    title="{{'PROJECT.NAVIGATION.DISCOVER_TITLE' | translate}}"
+        //)
+        //    tg-svg(svg-icon="icon-compass")
 
         .topnav-dropdown-wrapper.nav-bar-support(ng-if="vm.customSupportUrl")
-            a(
-                ng-if="vm.customSupportUrl"
-                href="{{ vm.customSupportUrl }}",
-                target="_blank",
-                title="{{'PROJECT.NAVIGATION.HELP_TITLE' | translate}}",
-            )
-                tg-svg(svg-icon="icon-help-circle")
+            //a(
+            //    ng-if="vm.customSupportUrl"
+            //    href="{{ vm.customSupportUrl }}",
+            //    target="_blank",
+            //    title="{{'PROJECT.NAVIGATION.HELP_TITLE' | translate}}",
+            //)
+            //    tg-svg(svg-icon="icon-help-circle")
 
             .navbar-dropdown.navigation-help
                 ul
-                    li(ng-if="vm.userpilotEnabled")
-                        a.secondary(
-                            href="#"
-                            title="{{ vm.userPilotTitle }}"
-                        )
-                            tg-svg(svg-icon="icon-lifeguard")
-                            span {{ vm.userPilotTitle }}
+                    //li(ng-if="vm.userpilotEnabled")
+                    //    a.secondary(
+                    //        href="#"
+                    //        title="{{ vm.userPilotTitle }}"
+                    //    )
+                    //        tg-svg(svg-icon="icon-lifeguard")
+                    //        span {{ vm.userPilotTitle }}
 
-                    li
-                        a.secondary(
-                            href="{{ vm.customSupportUrl }}",
-                            target="_blank",
-                            title="{{ 'PROJECT.NAVIGATION.TAIGA_COMMUNITY_TITLE' | translate }}"
-                        )
-                            tg-svg(svg-icon="icon-resources")
-                            span {{ 'PROJECT.NAVIGATION.TAIGA_COMMUNITY' | translate }}
+                    //li
+                    //    a.secondary(
+                    //        href="{{ vm.customSupportUrl }}",
+                    //        target="_blank",
+                    //        title="{{ 'PROJECT.NAVIGATION.TAIGA_COMMUNITY_TITLE' | translate }}"
+                    //    )
+                    //        tg-svg(svg-icon="icon-resources")
+                    //        span {{ 'PROJECT.NAVIGATION.TAIGA_COMMUNITY' | translate }}
 
-                    li
-                        a.secondary(
-                            ng-show="vm.isFeedbackEnabled"
-                            href="#"
-                            ng-click="vm.sendFeedback()",
-                            title="{{ 'PROJECT.NAVIGATION.FEEDBACK_TITLE' | translate }}"
-                        )
-                            tg-svg(svg-icon="icon-message-square")
-                            span {{ 'PROJECT.NAVIGATION.FEEDBACK' | translate }}
+                    //li
+                    //    a.secondary(
+                    //        ng-show="vm.isFeedbackEnabled"
+                    //        href="#"
+                    //        ng-click="vm.sendFeedback()",
+                    //        title="{{ 'PROJECT.NAVIGATION.FEEDBACK_TITLE' | translate }}"
+                    //    )
+                    //        tg-svg(svg-icon="icon-message-square")
+                    //        span {{ 'PROJECT.NAVIGATION.FEEDBACK' | translate }}
 
         .topnav-dropdown-wrapper(
             tg-dropdown-notifications

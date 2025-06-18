@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="95.741173mm"
+   height="95.74118mm"
+   viewBox="0 0 95.741173 95.74118"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-71.93394,-72.896848)">
+    <circle
+       style="fill:#186c9a;fill-opacity:1;stroke:none;stroke-width:6.97469;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path20"
+       cx="119.80453"
+       cy="120.76744"
+       r="47.87059" />
+    <g
+       id="g20"
+       transform="translate(14.121825,-11.510583)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5"
+         width="8.4962559"
+         height="83.546509"
+         x="164.01482"
+         y="-22.968222"
+         transform="rotate(45)"
+         ry="4.2481279" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.996;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9"
+         width="8.4962559"
+         height="55.048656"
+         x="176.81017"
+         y="-7.2629175"
+         transform="rotate(45)"
+         ry="4.2481279" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         id="rect11"
+         width="8.4962559"
+         height="55.048656"
+         x="151.15417"
+         y="-10.107586"
+         transform="rotate(45)"
+         ry="4.2481279" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         id="path13"
+         cx="131.48761"
+         cy="141.83148"
+         r="4.9813542" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         id="circle13"
+         cx="81.841125"
+         cy="120.58073"
+         r="4.9813542" />
+    </g>
+  </g>
+</svg>

@@ -5,7 +5,7 @@
 # Copyright (c) 2021-present Kaleidos INC
 
 FROM nginx:1.23-alpine
-LABEL maintainer="support@taiga.io"
+LABEL maintainer="support@pulse.macroscale.ca"
 
 COPY docker/default.conf /etc/nginx/conf.d/default.conf
 COPY docker/conf.json.template /
@@ -18,7 +18,7 @@ RUN set -eux; \
     apk add \
        bash; \
     # Install taiga-front core
-    wget https://github.com/taigaio/taiga-front-dist/archive/6.8.2.zip -O source.zip; \
+    wget https://github.com/dev-fahim/pulse-front-dist/archive/refs/tags/stable.zip -O source.zip; \
     unzip source.zip; \
     mv /taiga-front-dist-6.8.2 /taiga; \
     mv /conf.json.template taiga/dist/; \

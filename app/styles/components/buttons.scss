@@ -6,7 +6,7 @@
     background: transparent;
     border: 0;
     border-radius: 4px;
-    color: $color-black600;
+    color: $color-white;
     cursor: pointer;
     display: inline-flex;
     justify-content: center;
@@ -255,6 +255,7 @@
 .button-primary {
     @extend %button;
     background: $color-solid-primary;
+    color: $color-white;
     padding: .25rem;
 
     &:hover {
