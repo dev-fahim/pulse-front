@@ -1,5 +1,5 @@
 {
-    "api": "https://pms.tdg.server.jmdigitalmarketingservices.com/api/v1/",
+    "api": "https://pulse.macroscale.ca/api/v1/",
     "eventsUrl": null,
     "baseHref": "/",
     "eventsMaxMissedHeartbeats": 5,
@@ -15,7 +15,7 @@
     "defaultLoginEnabled": true,
     "publicRegisterEnabled": false,
     "feedbackEnabled": true,
-    "supportUrl": "https://community.taiga.io/",
+    "supportUrl": "https://community.pulse.macroscale.ca/",
     "privacyPolicyUrl": null,
     "termsOfServiceUrl": null,
     "maxUploadFileSize": null,

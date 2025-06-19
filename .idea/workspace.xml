@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8629fb3f-c6e9-461d-945c-5243c5779ea4" name="Changes" comment="White label">
-      <change beforePath="$PROJECT_DIR$/app/locales/taiga/locale-en.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/locales/taiga/locale-en.json" afterDir="false" />
+    <list default="true" id="8629fb3f-c6e9-461d-945c-5243c5779ea4" name="Changes" comment="Remove: duplicate">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="7335641f-f1a0-41a8-8fe5-3f7d8b6822c5" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -80,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750263249587</updated>
-      <workItem from="1750263250619" duration="3178000" />
+      <workItem from="1750263250619" duration="5983000" />
     </task>
     <task id="LOCAL-00001" summary="White label">
       <option name="closed" value="true" />
@@ -90,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750270597271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove: duplicate">
+      <option name="closed" value="true" />
+      <created>1750270676921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750270676921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="White label" />
-    <option name="LAST_COMMIT_MESSAGE" value="White label" />
+    <MESSAGE value="Remove: duplicate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove: duplicate" />
   </component>
 </project>
